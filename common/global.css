@@ -1,0 +1,162 @@
+/*------------------------------------------------------------------------------------
+  Global Styles CSS Reset
+------------------------------------------------------------------------------------*/
+* {
+    padding: 0;
+    margin: 0;
+}
+h1, h2, h3, h4, h5, h6, 
+p, pre, blockquote, 
+ul, ol, dl, address { 
+	margin: 1em 0; 
+}
+li, dd { 
+	margin-left: 5%; 
+}
+fieldset { 
+	padding: .5em; 
+	margin: 0;
+}
+select option { 
+	padding: 0 5px; 
+}
+.hide { 
+	display: none; 
+}
+.left { 
+	float: left; 
+}
+.right { 
+	float: right; 
+}
+.clear { 
+	clear: both; 
+	height: 1px; 
+	font-size: 1px; 
+	line-height: 1px; 
+}
+a img { 
+	border: none; 
+}
+/* Global Styles */
+* {
+	outline: none;
+}
+body {
+	margin: 0;
+	padding: 0;
+	background: #FFF;
+	color: #333;
+	font: 14px/1.5em Helvetica, Arial, Verdana, sans-serif;
+}
+a,
+a:link,
+a:visited {
+	text-decoration: none;
+	color: #fb6b01;
+}
+a:hover,
+a:focus,
+a:active {
+	text-decoration: underline;
+	color: #fb6b01;
+}
+.hidden {
+	display: none;
+}
+h1, h2, h3 {
+	font-size: 2.4em;
+	font-weight: normal;
+	margin: .5em 0;
+	font-family: Helvetica, Arial, Verdana, sans-serif;
+	color: #555;
+}
+h2 {
+	font-size: 2em;
+}
+h3 {
+	font-size: 1.6em;
+}
+/* Messages */
+.flash {
+	background: #CEC;
+	padding: 1px 5px;
+	border: 1px solid #ACA;
+	margin: 0 5px 5px 0;
+	color: #222;
+}
+
+.right {
+	text-align: right;
+}
+
+.middle {
+	vertical-align: middle;
+}
+/* form elements */
+input {
+	border: 1px solid #999;
+	background: #FFF;
+	font: 13px/14px monospace;
+	padding: 4px;
+	-webkit-box-shadow: inset 0 0 2px rgba(0,0,0,.25), 0 0 1px rgba(0,0,0,.25);
+    -moz-box-shadow: inset 0 0 2px rgba(0,0,0,.25), 0 0 1px rgba(0,0,0,.25);
+	-ms-box-shadow: inset 0 0 2px rgba(0,0,0,.25), 0 0 1px rgba(0,0,0,.25);
+	-o-box-shadow: inset 0 0 2px rgba(0,0,0,.25), 0 0 1px rgba(0,0,0,.25);
+    box-shadow: inset 0 0 2px rgba(0,0,0,.25), 0 0 1px rgba(0,0,0,.25);
+}
+input.err {
+	border-color: #D00;
+}
+span.error {
+	color: #D00;
+}
+input:focus,
+button:focus,
+input[type=button]:focus,
+input[type=submit]:focus {
+	border-color: #33C;
+}
+button,
+input[type=button],
+input[type=submit] {
+	border: 1px solid #999;
+	background: #FFF;
+	font: 13px/14px monospace;
+	padding: 3px;
+	-webkit-box-shadow: inset 0 0 2px rgba(255,255,255,1), 0 0 2px rgba(0,0,0,.25);
+    -moz-box-shadow: inset 0 0 2px rgba(255,255,255,1), 0 0 2px rgba(0,0,0,.25);
+	-ms-box-shadow: inset 0 0 2px rgba(255,255,255,1), 0 0 2px rgba(0,0,0,.25);
+	-o-box-shadow: inset 0 0 2px rgba(255,255,255,1), 0 0 2px rgba(0,0,0,.25);
+    box-shadow: inset 0 0 2px rgba(255,255,255,1), 0 0 2px rgba(0,0,0,.25);
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+	border-radius: 5px;
+	background: #226269;
+	background: -webkit-gradient(linear,left top,left bottom,from(#F8F8F8),to(#DDD));
+	background: -webkit-linear-gradient(top, #F8F8F8, #DDD);
+	background: -moz-linear-gradient(top, #F8F8F8, #DDD);
+	background: -ms-linear-gradient(top, #F8F8F8, #DDD);
+	background: -o-linear-gradient(top, #F8F8F8, #DDD);
+	background: linear-gradient(top, #F8F8F8, #DDD);
+}
+/* Errors */
+span.error,
+.req label.field {
+	color: #800;
+}
+.error_box {
+	border: 1px solid #800;
+	padding: 0 1em;
+	background: #EEE;
+}
+.error_box h2 {
+	color: #800;
+	font-size: 1.5em;
+}
+/* MAIN CONTENT */
+#content {
+	padding: 2em;
+}
