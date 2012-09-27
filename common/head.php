@@ -4,12 +4,20 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <link href="../common/global.css" rel="stylesheet" type="text/css" />
 <script src="../common/jquery-1.6.2.js" type="text/javascript"></script>
-<script src="../source/Color.core.js" type="text/javascript"></script>
-<script src="../source/Color.formats.js" type="text/javascript"></script>
-<script src="../source/Color.methods.js" type="text/javascript"></script>
-<script src="../source/Color.hsl.js" type="text/javascript"></script>
-<script src="../source/Color.names.js" type="text/javascript"></script>
-<script src="../source/Color.names.browser.js" type="text/javascript"></script>
+<?php 
+	$arr = array(
+		'Color.core.js',
+		'Color.formats.js',
+		'Color.methods.js',
+		'Color.hsl.js',
+		'Color.names.js',
+		'Color.names.browser.js',
+		'Color.matrix.js'
+	); 
+	foreach( $arr as $src ){
+		echo '<script src="../source/'.$src.'" type="text/javascript"></script>';	
+	}
+?>
 <title>webdev</title>
 </head>
 <body>
